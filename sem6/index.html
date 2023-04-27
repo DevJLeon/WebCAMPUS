@@ -3,26 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <title>Clases HTML</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <header><h1>Header</h1></header>
+
   <body>
     <p>Párrafo</p>
-    <table style="border: 1px solid black;">
-      <tr >
-        <th>CODIGO</th><th>PRODUCTO</th><th>CANTIDAD</th>
+
+    <table style="border: 1px solid black">
+      <tr>
+        <th>CODIGO</th>
+        <th>PRODUCTO</th>
+        <th>CANTIDAD</th>
       </tr>
       <tr>
         <td>01</td>
-        <td>Camisa de lino bordado de las montañas del himalaya</td>
-        <td>3</td>
+        <td>Camisa de lino bordado</td>
+        <td>3 unidades</td>
       </tr>
       <tr>
         <td>02</td>
         <td>Pantalón</td>
-        <td>1</td>
+        <td>1 unidad</td>
       </tr>
     </table>
-    <a href="https://www.google.com/">Ir a google</a>
+
+    <table>
+      <thead>
+        <tr>
+          <th>CODIGO</th>
+          <th>PRODUCTO</th>
+          <th>CANTIDAD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Camisa de lino bordado</td>
+          <td>3 unidades</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Pantalón</td>
+          <td>1 unidad</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a href="https://www.google.com/">Ir a google</a><br /><br />
+
+    <form method="get">
+      <label for="name">Ingrese su nombre:</label>
+      <input id="name" placeholder="Nombre" />
+      <input type="submit" value="Enviar Nombre" />
+    </form>
+
   </body>
 </html>
 
