@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: #741088;
+}
+.grid-element{
+    background-color: #60cadb;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: solid 2px;
+    border-radius: 0%;
+}
+
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
