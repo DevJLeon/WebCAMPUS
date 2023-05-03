@@ -1,0 +1,35 @@
+*{
+    background-color: #6a32a748;
+}
+
+.div__title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid__container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    margin: 30px 0px;
+    gap: 10px;
+    
+}
+
+.grid__element{
+    text-align: center;
+    line-height: 100px;
+    border: solid 1.5px #591175;
+}
+
+.grid__element-2{
+    grid-area: 1 / 2 / 3 / 4;
+}
+.grid__element-3{
+    grid-area: 2 / 1 / 5 / 1;
+}
+
+.grid__element-8{
+    grid-area: 6 / 1 / 5 / 4;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid exercise</title>
+    <style>
+        *{
+            background-color: #6a32a748;
+        }
+        
+        .div__title{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .grid__container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            margin: 30px 0px;
+            gap: 10px;
+            
+        }
+        
+        .grid__element{
+            text-align: center;
+            line-height: 100px;
+            border: solid 1.5px #591175;
+        }
+        
+        .grid__element-2{
+            grid-area: 1 / 2 / 3 / 4;
+        }
+        .grid__element-3{
+            grid-area: 2 / 1 / 5 / 1;
+        }
+        
+        .grid__element-8{
+            grid-area: 6 / 1 / 5 / 4;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="div__title">CSS GRID</div>
+    <div class="grid__container">
+        <div class="grid__element grid__element-1">1</div>
+        <div class="grid__element grid__element-2">2</div>
+        <div class="grid__element grid__element-3">3</div>
+        <div class="grid__element grid__element-4">4</div>
+        <div class="grid__element grid__element-5">5</div>
+        <div class="grid__element grid__element-6">6</div>
+        <div class="grid__element grid__element-7">7</div>
+        <div class="grid__element grid__element-8">8</div>
+    </div>
+</body>
+</html>
