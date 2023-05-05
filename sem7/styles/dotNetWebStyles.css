@@ -8,6 +8,7 @@
 
 .navBar{
     line-height: 1000%;
+    
 }
 .nav__element{
     color: #fff;
@@ -19,6 +20,13 @@
 img{
     height: 20%;
     margin: 60px 0px 0px 50px;
+}
+.grid__element a{
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    display: grid;
+    align-items: center;
 }
 
 
@@ -49,32 +57,35 @@ p{
     gap: 10px;
     box-sizing: border-box;
     padding: 10px;
-    margin: auto;
+    margin: 70px auto auto auto;
 }
 
 .grid__element{
     box-sizing: border-box;
     border: 1px solid turquoise;
     background: linear-gradient(#434c7c, #6f6c7ab9);
-    display: grid;
-    align-items: center;
     text-align: center;
     font-weight: bold;
     color: #ece3e3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .item6{
     grid-area: 1 / 6 / 8 / 6;
     width: 75%;
     writing-mode: vertical-rl;
-    text-orientation: upright;
     background: linear-gradient(#9ce28a,#dff1d1);
-    display: grid;
-    align-items: center;
     font-weight: bold;
     font-size: 25px;
-    letter-spacing: 0.1px;
     color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
 }
 
 .item8,.item9,.item10,.item11{
