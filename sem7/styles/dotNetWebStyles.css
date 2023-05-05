@@ -1,9 +1,25 @@
+article{
+    margin: 0px 30% 0px 100px;
+    flex: left;
+}
+
+.titulo{
+    font-size: 50px;
+    color: #db952c;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
 .grid__container{
-    width: 30%;
-    height: 70%;
+    width: 40%;
+    height: 80%;
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
-    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px;
     background-color: #8c3db194;
     gap: 10px;
     box-sizing: border-box;
@@ -15,23 +31,30 @@
     box-sizing: border-box;
     border: 1px solid turquoise;
     background: linear-gradient(#434c7c, #6f6c7ab9);
+    display: grid;
+    align-items: center;
     text-align: center;
-    line-height: 250%;
-
+    font-weight: bold;
+    color: #ece3e3;
 }
 
 .item6{
     grid-area: 1 / 6 / 8 / 6;
-    width: 55%;
+    width: 75%;
     writing-mode: vertical-rl;
     text-orientation: upright;
     background: linear-gradient(#9ce28a,#dff1d1);
     display: grid;
     align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.1px;
+    color: black;
 }
 
 .item8,.item9,.item10,.item11{
     background: linear-gradient(#becf5a,#c9ccb9);
+    color: black;
 }
 
 .item7{
@@ -70,8 +93,10 @@
 .item12{
     grid-area: 6 / 1 / 6 / 6;
     background: linear-gradient(#d8b519,#d4cca5);
+    color: black;
 }
 .item13{
     grid-area: 7 / 1 / 7 / 6;
     background: linear-gradient(#989ead,#adadad);
+    color: black;
 }
