@@ -22,10 +22,12 @@
 
 .item6{
     grid-area: 1 / 6 / 8 / 6;
-    width: 50%;
+    width: 55%;
     writing-mode: vertical-rl;
     text-orientation: upright;
     background: linear-gradient(#9ce28a,#dff1d1);
+    display: grid;
+    align-items: center;
 }
 
 .item8,.item9,.item10,.item11{
@@ -35,17 +37,28 @@
 .item7{
     grid-area: 2 / 1 / 2 / 6;
 }
-.item8{
-    grid-area: 3 / 1 / 3 / 3;
+
+.contenedor{
+    size: 100%;
+    grid-area: 3 / 1 / 3 / 6;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    background: transparent;
+    border: none;
+
+}
+.item8, .item9{
+    display: grid;
+    align-items: center;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
     line-height: normal;
     
 }
-.item9{
-    grid-area: 3 / 4 / 3 / 6;
-}
+
 .item10{
     grid-area: 4 / 1 / 4 / 6;
 }
