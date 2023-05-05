@@ -1,3 +1,12 @@
+
+
+.header{
+    height: 150px;
+    width: 100%;
+    background-color: #434c7c;
+}
+
+
 article{
     margin: 0px 30% 0px 100px;
     flex: left;
