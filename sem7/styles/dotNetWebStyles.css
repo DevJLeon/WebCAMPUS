@@ -31,7 +31,7 @@ img{
 
 
 article{
-    margin: 0px 30% 0px 100px;
+    margin: 0px 40% 0px 100px;
     flex: left;
     text-align: justify;
 }
@@ -48,7 +48,7 @@ p{
 
 
 .grid__container{
-    width: 40%;
+    width: 60%;
     height: 80%;
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
@@ -75,7 +75,7 @@ p{
 
 .item6{
     grid-area: 1 / 6 / 8 / 6;
-    width: 75%;
+    width: 60%;
     writing-mode: vertical-rl;
     background: linear-gradient(#9ce28a,#dff1d1);
     font-weight: bold;
@@ -85,7 +85,12 @@ p{
     align-items: center;
     text-align: center;
     justify-content: center;
+    transition: 5s;
 
+}
+.item6:hover{
+    background: linear-gradient(#246415,#5e6955);
+    transition: 10s;
 }
 
 .item8,.item9,.item10,.item11{
