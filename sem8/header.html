@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header exercise</title>
+    <style>
+      body{
+        font-family: Arial,Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      nav{
+        background-color: #000;
+        color: #fff;
+        width: 100%;
+      }
+
+      nav .mobile{
+        display: none;
+      }
+
+      nav .logo{
+        min-width: 250px;
+      }
+
+      nav a{
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 20px 25px;
+      }
+
+      nav a:hover{
+        color: #000;
+        background-color: #00c3ff;
+      }
+
+      nav .desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+      }
+
+      nav .desktop .primary, nav .desktop .secondary{
+        display: flex;
+      }
+      nav .desktop .secondary.mini{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="mobile">
+        <div class="header">
+          <div class="logo">logo</div>
+          <div class="more"><button>More</button></div>
+        </div>
+        <div class="links">
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Search</a>
+          <a href="#">Sing up</a>
+          <a href="#">Log in</a>
+        </div>
+      </div>
+      <div class="desktop">
+        <div class="logo">Logo</div>
+        <div class="primary">
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="secondary full">
+          <a href="#">Search</a>
+          <a href="#">Sing up</a>
+          <a href="#">Log in</a>
+        </div>
+        <div class="secondary mini">
+          <a href="#">More</a>
+          <div class="submenu">
+            <a href="#">Search</a>
+            <a href="#">Sing up</a>
+            <a href="#">Log in</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
